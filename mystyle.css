@@ -10,24 +10,26 @@ header {
     text-align: center;
 }
 
-
-
-nav {
-    float: left;
-    border: solid rgb(109, 92, 171);
-    width: 50%;
-    height: 200px;
+.bodyside {
+    display: flex;
 }
 
-ads {
-    float: right;
-    border: solid orange;
-    width: 20%;
-    height: 200px;
+.sidebar {
+    border: solid greenyellow;
+    display: flex;
+    width: 25%;
+}
+
+.bodyside main {
+    border: solid rgb(0, 72, 255);
+    width: 75%;
 }
 
 footer {
-    padding: 50px 0;
+    padding: 20px 0;
+    text-align: center;
     border: solid rgb(209, 133, 205);
-    clear: both;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.7rem;
 }
