@@ -39,16 +39,40 @@ header {
 
 .bodyside {
     display: flex;
+    margin: 0 1rem;
 }
 
 .sidebar {
-    border: solid greenyellow;
+    /* border: solid greenyellow; */
     display: flex;
     width: 25%;
 }
 
+.nav-menu {
+    list-style: none;
+    width: 100%;
+}
+
+.nav-menu li {
+    list-style: none;
+    /* border: solid red; */
+    margin-bottom: 0.6rem;
+    padding: 8px 1rem;
+    background-color: rgb(227, 184, 231);
+    border-radius: 0.8rem;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: rgb(72, 75, 179);
+}
+
+.bodyside {
+    gap: 0.5rem;
+}
+
 .bodyside main {
-    border: solid rgb(0, 72, 255);
+    /* border: solid rgb(0, 72, 255); */
     width: 75%;
 }
 
