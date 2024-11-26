@@ -10,12 +10,7 @@ header {
     text-align: center;
 }
 
-.grid-container {
-    float: left;
-    border: solid greenyellow;
-    width: 30%;
-    height: 200px;
-}
+
 
 nav {
     float: left;
