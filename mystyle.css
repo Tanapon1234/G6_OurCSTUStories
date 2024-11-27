@@ -12,7 +12,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 1.6%;
+    margin: 0.5rem;
     border-radius: 0.5rem;
 }
 
@@ -26,8 +26,12 @@ header {
     font-size: 0.8rem;
 }
 
-.logo{
+.btn-head a:hover {
+    background-color: rgb(247, 137, 192);
+    color: rgb(38, 128, 181);
+}
 
+.logo{
     text-align: left;
     margin: 8%;
     color: #fff;
@@ -40,7 +44,7 @@ header {
 
 .bodyside {
     display: flex;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
 }
 
 .sidebar {
@@ -90,7 +94,8 @@ main h3 {
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
-    gap: 4rem; 
+    gap:  2rem 3rem; 
+    padding: 0 1rem;
 }
 
 .grid .box:nth-child(5),
@@ -116,8 +121,8 @@ main h3 {
 }
 
 .box img {
-    width: 80%;
-    height: 100px;
+    max-width: 80%;
+    height: 120px;
     object-fit: cover;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -143,21 +148,18 @@ p {
     font-size: 1rem ;
 }
 
+footer {
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.7rem;
+}
+
 .container {
     text-align: center;
-    width: 90%;
-    max-width: 800px;
 }
 
 .container p {
     color: #fff;
 }
 
-footer {
-    padding: 20px 0;
-    text-align: center;
-    border: solid rgb(209, 133, 205);
-    background-color: #333;
-    color: #fff;
-    font-size: 0.7rem;
-}
