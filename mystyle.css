@@ -35,50 +35,62 @@ header {
 
 .logo h1 {
     font-size: 2.8rem;
+    color: #fff;
 }
 
 .bodyside {
     display: flex;
+    margin: 0 1rem;
 }
 
 .sidebar {
-    border: solid greenyellow;
+    /* border: solid greenyellow; */
     display: flex;
     width: 25%;
 }
 
+.nav-menu {
+    list-style: none;
+    width: 100%;
+}
+
+.nav-menu li {
+    list-style: none;
+    /* border: solid red; */
+    margin-bottom: 0.6rem;
+    padding: 8px 1rem;
+    background-color: rgb(227, 184, 231);
+    border-radius: 0.8rem;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: rgb(72, 75, 179);
+}
+
+.bodyside {
+    gap: 0.5rem;
+}
+
 .bodyside main {
-    border: solid rgb(0, 72, 255);
+    /* border: solid rgb(0, 72, 255); */
     width: 75%;
 }
 
-footer {
-    padding: 20px 0;
-    text-align: center;
-    border: solid rgb(209, 133, 205);
-    background-color: #333;
-    color: #fff;
-    font-size: 0.7rem;
-}
-
-
-
-.container {
-    text-align: center;
-    width: 90%;
-    max-width: 800px;
-}
-
-h1 {
-    font-size: 24px;
+main h3 {
+    font-size: 2rem;
     margin-bottom: 20px;
-    color: #333;
+    color: #fff;
+    background-color:#847fe3;
+    /* border: solid red; */
+    border-radius: 0.5rem;
+    padding: 4px 1rem;
 }
 
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
-    gap: 15px; 
+    gap: 4rem; 
 }
 
 .grid .box:nth-child(5),
@@ -95,7 +107,8 @@ h1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     font-size: 16px;
-    height: 200px;
+    height: 250px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,4 +141,23 @@ p {
 
 .p1 {
     font-size: 1rem ;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+}
+
+.container p {
+    color: #fff;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    border: solid rgb(209, 133, 205);
+    background-color: #333;
+    color: #fff;
+    font-size: 0.7rem;
 }
