@@ -90,7 +90,7 @@ main h3 {
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
-    gap: 4rem; 
+    gap: 1rem; 
 }
 
 .grid .box:nth-child(5),
@@ -107,20 +107,23 @@ main h3 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     font-size: 16px;
-    height: 250px;
-    
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width :100%;
+
 }
 
 .box img {
-    width: 80%;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    max-width : 100%;
+    height: auto;
+    width: auto;
+    display:block;
+    margin-bottom:10px;
+
+
 }
 
 h2 {
