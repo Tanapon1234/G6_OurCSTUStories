@@ -1,83 +1,436 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Our CSTU Stories</title>
-    <link rel="stylesheet" href="mystyle.css">
-</head>
-<body>
-    <header class="header">
-        <div class="btn-head">
-            <a href="#" target="_blank">Home</a>
-            <a href="#" target="_blank">About us</a>
-            <a href="#" target="_blank">Guest book</a>
-        </div>
+    <link rel="stylesheet" href="mystyle.css" />
 
-        <div class="logo">
-            <h1>Our<br>CSTU Story</h1>
-        </div>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="btn-head">
+        <a href="#" target="_blank">Home</a>
+        <a href="#" target="_blank">About us</a>
+        <a href="#" target="_blank">Guest book</a>
+      </div>
+
+      <div class="logo">
+        <h1>Our<br />CSTU Story</h1>
+      </div>
     </header>
 
     <div class="bodyside">
-        <aside class="sidebar">
-            <ul class="nav-menu">
-                <li><a href="">Our Journey Hilights</a></li>
-                <li><a href="">Our Future Hilights</a></li>
-            </ul>
-        </aside>
+      <aside class="sidebar">
+        <ul class="nav-menu">
+          <li><a href="">Our Journey Hilights</a></li>
+          <li><a href="">Our Future Hilights</a></li>
+        </ul>
+      </aside>
 
-        <main>
-            <h3>Members</h3>
-            <div class="grid">
-                <div class="box">
-                    <img src="friend1.jpg" alt="Ben">
-                    <h2>6709450016 BEN</h2>
-                    <p>ข้อมูลของสมาชิก 1</p>
-                </div>
-                <div class="box">
-                    <img src="image/pang.jpg" alt="Pang">
-                    <h2>6709530015 PANG</h2>
-                    <p>My name is Natcha Wattanawaitunechai. My nickname is Pang. I'm studying in Thammasat University, faculty of Science and Technology, bachelor of Science Program in Computer Science. My favorite colors are green and yellow. My hobbies are watching cartoon, playing games and drawing.</p>
-                </div>
-                <div class="box">
-                    <img src="image/grace.JPG" alt="Grace">
-                    <h2>6709616566 GRACE</h2>
-                    <div class="box-info">
-                        <p>My name is Nattsorn Puneenakoon, nickname Grace.I study Computer Science at Thammasat University and am interested in technology and language learning.I like pink and purple and my hobby is taking photos</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <img src="image/irin.JPG" alt="Irin">
-                    <h2>6709616624 IRIN</h2>
-                    <div class="box-info">
-                        <p>Hello! My name is Parncheewa Udeye, but you can call me Irin. I’m currently studying Computer Science at the Faculty of Science and Technology, Thammasat University. I enjoy learning new things and exploring ideas that expand my perspective, and I’m also curious about how can I apply what I’ve learned to real-world challenges.</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <img src="friend5.jpg" alt="Phet">
-                    <h2>6709616640 Aew</h2>
-                    <p>ข้อมูลของสมาชิก 5</p>
-                </div>
-                <div class="box">
-                    <img src="friend6.jpg" alt="Aew">
-                    <h2>6709616665 PHET</h2>
-                    <p>ข้อมูลของสมาชิก 6</p>
-                </div>
-                <div class="box">
-                    <img src="image/james.JPG" alt="James">
-                    <h2>6709616913 James</h2>
-                    <p>ข้อมูลของสมาชิก 7</p>
-                </div>
+      <main>
+        <h3>Members</h3>
+        <div class="grid">
+          <div class="box">
+            <img src="friend1.jpg" alt="Ben" />
+            <h2>6709450016 BEN</h2>
+            <p>ข้อมูลของสมาชิก 1</p>
+          </div>
+          <div class="box">
+            <img src="image/pang.jpg" alt="Pang" />
+            <h2>6709530015 PANG</h2>
+            <p>
+              My name is Natcha Wattanawaitunechai. My nickname is Pang. I'm
+              studying in Thammasat University, faculty of Science and
+              Technology, bachelor of Science Program in Computer Science. My
+              favorite colors are green and yellow. My hobbies are watching
+              cartoon, playing games and drawing.
+            </p>
+          </div>
+          <div class="box">
+            <img src="image/grace.JPG" alt="Grace" />
+            <h2>6709616566 GRACE</h2>
+            <div class="box-info">
+              <p>
+                My name is Nattsorn Puneenakoon, nickname Grace.I study Computer
+                Science at Thammasat University and am interested in technology
+                and language learning.I like pink and purple and my hobby is
+                taking photos
+              </p>
             </div>
-        </main>
+          </div>
+          <div class="box">
+            <img src="image/irin.JPG" alt="Irin" />
+            <h2>6709616624 IRIN</h2>
+            <div class="box-info">
+              <p>
+                Hello! My name is Parncheewa Udeye, but you can call me Irin.
+                I’m currently studying Computer Science at the Faculty of
+                Science and Technology, Thammasat University. I enjoy learning
+                new things and exploring ideas that expand my perspective, and
+                I’m also curious about how can I apply what I’ve learned to
+                real-world challenges.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="friend5.jpg" alt="Phet" />
+            <h2>6709616640 Aew</h2>
+            <p>ข้อมูลของสมาชิก 5</p>
+          </div>
+          <div class="box">
+            <img src="friend6.jpg" alt="Aew" />
+            <h2>6709616665 PHET</h2>
+            <p>ข้อมูลของสมาชิก 6</p>
+          </div>
+          <div class="box">
+            <img src="image/james.JPG" alt="James" />
+            <h2>6709616913 James</h2>
+            <p>ข้อมูลของสมาชิก 7</p>
+          </div>
+        </div>
+      </main>
     </div>
 
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 G06 of CS100 Section 10001. All Rights Reserved.</p>
+    <!-- gust-book -->
+    <section id="gust-book">
+      <div class="container">
+        <div class="text-center mt-5">
+          <h1>Comments Form</h1>
         </div>
-    </footer>
+        <div
+          class="modal fade"
+          id="thankYouModal"
+          tabindex="-1"
+          aria-labelledby="thankYouModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="thankYouModalLabel">Thank you!</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p id="popup-message"></p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  ปิด
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
 
-</body>
+        <div class="row">
+          <div class="col-lg-7 mx-auto">
+            <div class="card mt-2 mx-auto p-4 bg-light">
+              <div class="card-body bg-light">
+                <div class="container">
+                  <form id="contact-form" role="form">
+                    <div class="controls">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="form_name">Firstname *</label>
+                            <input
+                              id="form_name"
+                              type="text"
+                              name="name"
+                              class="form-control"
+                              placeholder="Please enter your firstname *"
+                              required="required"
+                              data-error="Firstname is required."
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="form_lastname">Lastname *</label>
+                            <input
+                              id="form_lastname"
+                              type="text"
+                              name="surname"
+                              class="form-control"
+                              placeholder="Please enter your lastname *"
+                              required="required"
+                              data-error="Lastname is required."
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="form_email">Email *</label>
+                            <input
+                              id="form_email"
+                              type="email"
+                              name="email"
+                              class="form-control"
+                              placeholder="Please enter your email *"
+                              required="required"
+                              data-error="Valid email is required."
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="form_role">What do you do ? *</label>
+                            <select
+                              id="form_role"
+                              name="role"
+                              class="form-control"
+                              required="required"
+                              data-error="Please specify your role."
+                            >
+                              <option value="" selected disabled>
+                                --Select Your Issue--
+                              </option>
+                              <option>Student</option>
+                              <option>Teacher</option>
+                              <option>Employee</option>
+                              <option>Other</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label for="form_message">Comments *</label>
+                            <textarea
+                              id="form_message"
+                              name="message"
+                              class="form-control"
+                              placeholder="Write your Comments."
+                              rows="4"
+                              required="required"
+                              data-error="Please, leave us a Comments."
+                            ></textarea>
+                          </div>
+                        </div>
+                        <fieldset class="rating-container">
+                          <input type="radio" name="rating" id="rate5" />
+                          <label for="rate5">
+                            <svg
+                              id="Object"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1122 1122"
+                            >
+                              <defs>
+                                <style>
+                                  .cls-1 {
+                                    fill: #f7db5e;
+                                  }
+                                  .cls-2 {
+                                    fill: #f3cc30;
+                                  }
+                                  .cls-3 {
+                                    fill: #edbd31;
+                                  }
+                                </style>
+                              </defs>
+                              <path
+                                class="cls-2"
+                                d="m570.497,252.536l93.771,190c1.543,3.126,4.525,5.292,7.974,5.794l209.678,30.468c8.687,1.262,12.156,11.938,5.87,18.065l-151.724,147.895c-2.496,2.433-3.635,5.939-3.046,9.374l35.817,208.831c1.484,8.652-7.597,15.25-15.367,11.165l-187.542-98.596c-3.085-1.622-6.771-1.622-9.857,0l-187.542,98.596c-7.77,4.085-16.851-2.513-15.367-11.165l35.817-208.831c.589-3.436-.55-6.941-3.046-9.374l-151.724-147.895c-6.286-6.127-2.817-16.803,5.87-18.065l209.678-30.468c3.45-.501,6.432-2.668,7.974-5.794l93.771-190c3.885-7.872,15.11-7.872,18.995,0Z"
+                              />
+                              <path
+                                class="cls-1"
+                                d="m561,296.423l-83.563,161.857c-4.383,8.49-12.797,14.155-22.312,15.024l-181.433,16.562,191.688,8.964c12.175.569,23.317-6.81,27.543-18.243l68.077-184.164Z"
+                              />
+                              <path
+                                class="cls-3"
+                                d="m357.284,838.933l-4.121,24.03c-1.484,8.652,7.597,15.25,15.367,11.165l187.541-98.596c3.086-1.622,6.771-1.622,9.857,0l187.541,98.596c7.77,4.085,16.851-2.513,15.367-11.165l-35.817-208.831c-.589-3.435.55-6.941,3.046-9.374l151.724-147.894c6.287-6.127,2.818-16.802-5.87-18.065l-70.23-10.205c-113.59,203.853-287.527,311.181-454.405,370.34Z"
+                              />
+                            </svg>
+                          </label>
+                          <input type="radio" name="rating" id="rate4" />
+                          <label for="rate4">
+                            <svg
+                              id="Object"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1122 1122"
+                            >
+                              <defs>
+                                <style>
+                                  .cls-1 {
+                                    fill: #f7db5e;
+                                  }
+                                  .cls-2 {
+                                    fill: #f3cc30;
+                                  }
+                                  .cls-3 {
+                                    fill: #edbd31;
+                                  }
+                                </style>
+                              </defs>
+                              <path
+                                class="cls-2"
+                                d="m570.497,252.536l93.771,190c1.543,3.126,4.525,5.292,7.974,5.794l209.678,30.468c8.687,1.262,12.156,11.938,5.87,18.065l-151.724,147.895c-2.496,2.433-3.635,5.939-3.046,9.374l35.817,208.831c1.484,8.652-7.597,15.25-15.367,11.165l-187.542-98.596c-3.085-1.622-6.771-1.622-9.857,0l-187.542,98.596c-7.77,4.085-16.851-2.513-15.367-11.165l35.817-208.831c.589-3.436-.55-6.941-3.046-9.374l-151.724-147.895c-6.286-6.127-2.817-16.803,5.87-18.065l209.678-30.468c3.45-.501,6.432-2.668,7.974-5.794l93.771-190c3.885-7.872,15.11-7.872,18.995,0Z"
+                              />
+                              <path
+                                class="cls-1"
+                                d="m561,296.423l-83.563,161.857c-4.383,8.49-12.797,14.155-22.312,15.024l-181.433,16.562,191.688,8.964c12.175.569,23.317-6.81,27.543-18.243l68.077-184.164Z"
+                              />
+                              <path
+                                class="cls-3"
+                                d="m357.284,838.933l-4.121,24.03c-1.484,8.652,7.597,15.25,15.367,11.165l187.541-98.596c3.086-1.622,6.771-1.622,9.857,0l187.541,98.596c7.77,4.085,16.851-2.513,15.367-11.165l-35.817-208.831c-.589-3.435.55-6.941,3.046-9.374l151.724-147.894c6.287-6.127,2.818-16.802-5.87-18.065l-70.23-10.205c-113.59,203.853-287.527,311.181-454.405,370.34Z"
+                              />
+                            </svg>
+                          </label>
+                          <input type="radio" name="rating" id="rate3" />
+                          <label for="rate3">
+                            <svg
+                              id="Object"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1122 1122"
+                            >
+                              <defs>
+                                <style>
+                                  .cls-1 {
+                                    fill: #f7db5e;
+                                  }
+                                  .cls-2 {
+                                    fill: #f3cc30;
+                                  }
+                                  .cls-3 {
+                                    fill: #edbd31;
+                                  }
+                                </style>
+                              </defs>
+                              <path
+                                class="cls-2"
+                                d="m570.497,252.536l93.771,190c1.543,3.126,4.525,5.292,7.974,5.794l209.678,30.468c8.687,1.262,12.156,11.938,5.87,18.065l-151.724,147.895c-2.496,2.433-3.635,5.939-3.046,9.374l35.817,208.831c1.484,8.652-7.597,15.25-15.367,11.165l-187.542-98.596c-3.085-1.622-6.771-1.622-9.857,0l-187.542,98.596c-7.77,4.085-16.851-2.513-15.367-11.165l35.817-208.831c.589-3.436-.55-6.941-3.046-9.374l-151.724-147.895c-6.286-6.127-2.817-16.803,5.87-18.065l209.678-30.468c3.45-.501,6.432-2.668,7.974-5.794l93.771-190c3.885-7.872,15.11-7.872,18.995,0Z"
+                              />
+                              <path
+                                class="cls-1"
+                                d="m561,296.423l-83.563,161.857c-4.383,8.49-12.797,14.155-22.312,15.024l-181.433,16.562,191.688,8.964c12.175.569,23.317-6.81,27.543-18.243l68.077-184.164Z"
+                              />
+                              <path
+                                class="cls-3"
+                                d="m357.284,838.933l-4.121,24.03c-1.484,8.652,7.597,15.25,15.367,11.165l187.541-98.596c3.086-1.622,6.771-1.622,9.857,0l187.541,98.596c7.77,4.085,16.851-2.513,15.367-11.165l-35.817-208.831c-.589-3.435.55-6.941,3.046-9.374l151.724-147.894c6.287-6.127,2.818-16.802-5.87-18.065l-70.23-10.205c-113.59,203.853-287.527,311.181-454.405,370.34Z"
+                              />
+                            </svg>
+                          </label>
+                          <input type="radio" name="rating" id="rate2" />
+                          <label for="rate2">
+                            <svg
+                              id="Object"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1122 1122"
+                            >
+                              <defs>
+                                <style>
+                                  .cls-1 {
+                                    fill: #f7db5e;
+                                  }
+                                  .cls-2 {
+                                    fill: #f3cc30;
+                                  }
+                                  .cls-3 {
+                                    fill: #edbd31;
+                                  }
+                                </style>
+                              </defs>
+                              <path
+                                class="cls-2"
+                                d="m570.497,252.536l93.771,190c1.543,3.126,4.525,5.292,7.974,5.794l209.678,30.468c8.687,1.262,12.156,11.938,5.87,18.065l-151.724,147.895c-2.496,2.433-3.635,5.939-3.046,9.374l35.817,208.831c1.484,8.652-7.597,15.25-15.367,11.165l-187.542-98.596c-3.085-1.622-6.771-1.622-9.857,0l-187.542,98.596c-7.77,4.085-16.851-2.513-15.367-11.165l35.817-208.831c.589-3.436-.55-6.941-3.046-9.374l-151.724-147.895c-6.286-6.127-2.817-16.803,5.87-18.065l209.678-30.468c3.45-.501,6.432-2.668,7.974-5.794l93.771-190c3.885-7.872,15.11-7.872,18.995,0Z"
+                              />
+                              <path
+                                class="cls-1"
+                                d="m561,296.423l-83.563,161.857c-4.383,8.49-12.797,14.155-22.312,15.024l-181.433,16.562,191.688,8.964c12.175.569,23.317-6.81,27.543-18.243l68.077-184.164Z"
+                              />
+                              <path
+                                class="cls-3"
+                                d="m357.284,838.933l-4.121,24.03c-1.484,8.652,7.597,15.25,15.367,11.165l187.541-98.596c3.086-1.622,6.771-1.622,9.857,0l187.541,98.596c7.77,4.085,16.851-2.513,15.367-11.165l-35.817-208.831c-.589-3.435.55-6.941,3.046-9.374l151.724-147.894c6.287-6.127,2.818-16.802-5.87-18.065l-70.23-10.205c-113.59,203.853-287.527,311.181-454.405,370.34Z"
+                              />
+                            </svg>
+                          </label>
+                          <input type="radio" name="rating" id="rate1" />
+                          <label for="rate1">
+                            <svg
+                              id="Object"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1122 1122"
+                            >
+                              <defs>
+                                <style>
+                                  .cls-1 {
+                                    fill: #f7db5e;
+                                  }
+                                  .cls-2 {
+                                    fill: #f3cc30;
+                                  }
+                                  .cls-3 {
+                                    fill: #edbd31;
+                                  }
+                                </style>
+                              </defs>
+                              <path
+                                class="cls-2"
+                                d="m570.497,252.536l93.771,190c1.543,3.126,4.525,5.292,7.974,5.794l209.678,30.468c8.687,1.262,12.156,11.938,5.87,18.065l-151.724,147.895c-2.496,2.433-3.635,5.939-3.046,9.374l35.817,208.831c1.484,8.652-7.597,15.25-15.367,11.165l-187.542-98.596c-3.085-1.622-6.771-1.622-9.857,0l-187.542,98.596c-7.77,4.085-16.851-2.513-15.367-11.165l35.817-208.831c.589-3.436-.55-6.941-3.046-9.374l-151.724-147.895c-6.286-6.127-2.817-16.803,5.87-18.065l209.678-30.468c3.45-.501,6.432-2.668,7.974-5.794l93.771-190c3.885-7.872,15.11-7.872,18.995,0Z"
+                              />
+                              <path
+                                class="cls-1"
+                                d="m561,296.423l-83.563,161.857c-4.383,8.49-12.797,14.155-22.312,15.024l-181.433,16.562,191.688,8.964c12.175.569,23.317-6.81,27.543-18.243l68.077-184.164Z"
+                              />
+                              <path
+                                class="cls-3"
+                                d="m357.284,838.933l-4.121,24.03c-1.484,8.652,7.597,15.25,15.367,11.165l187.541-98.596c3.086-1.622,6.771-1.622,9.857,0l187.541,98.596c7.77,4.085,16.851-2.513,15.367-11.165l-35.817-208.831c-.589-3.435.55-6.941,3.046-9.374l151.724-147.894c6.287-6.127,2.818-16.802-5.87-18.065l-70.23-10.205c-113.59,203.853-287.527,311.181-454.405,370.34Z"
+                              />
+                            </svg>
+                          </label>
+                          <div class="rating-value"></div>
+                        </fieldset>
+
+                        <div class="col-md-12">
+                          <input
+                            type="submit"
+                            class="btn btn-success btn-send pt-2 btn-block"
+                            value="Send Message"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!-- /.8 -->
+          </div>
+          <!-- /.row-->
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 G06 of CS100 Section 10001. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
 </html>
