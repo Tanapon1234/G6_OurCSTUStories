@@ -26,6 +26,8 @@ h1 {
 }
   
 .highlight img {
-    width: 100%;
+    width: 320px;
+    height: 385px;
+    object-fit: cover;
     margin-top: 20px;
 }
