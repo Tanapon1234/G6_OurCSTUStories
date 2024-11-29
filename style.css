@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -5,8 +6,10 @@ body {
 }
   
 h1 {
-    font-size: 36px;
-    margin-bottom: 30px;
+    font-family: "Syne", sans-serif;
+    color: #774f38;
+    font-size: 5rem;
+    margin: 100px;
 }
   
 .highlight {
