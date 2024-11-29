@@ -18,19 +18,28 @@ header {
   border-radius: 0.5rem;
 }
 
+.btn-head {
+  position: fixed;
+  top: 20px;
+  right: 30%;
+  left: 30%;
+}
+
 .btn-head a {
   text-decoration: none;
-  margin: 0 1rem;
+  margin: 0 0.5rem;
   color: #fff;
   background-color: #333;
-  padding: 3px 8px;
+  padding: 5px 10px;
   border-radius: 0.5rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .btn-head a:hover {
-  background-color: rgb(247, 137, 192);
-  color: rgb(38, 128, 181);
+  background-color: rgb(237, 119, 178);
+  color: rgb(60, 95, 199);
+  text-decoration: none;
 }
 
 .logo {
