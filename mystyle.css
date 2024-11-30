@@ -56,6 +56,12 @@ header {
 .bodyside {
   display: flex;
   margin: 0 0.5rem;
+  gap: 1rem;
+}
+
+.bodyside main {
+  /* border: solid rgb(0, 72, 255); */
+  width: 75%;
 }
 
 .sidebar {
@@ -64,40 +70,38 @@ header {
   width: 25%;
 }
 
+.menu {
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+}
+
 .nav-menu {
-  list-style: none;
   width: 100%;
+  padding-left: 0;
+  border: 6px solid rgb(255, 176, 221);
+  padding: 0 1.2rem;
+  border-radius: 1rem;
 }
 
-.nav-menu-con {
-  position: sticky;
-  top: 8px;
-}
-
-.nav-menu li {
-  list-style: none;
-  margin-bottom: 0.6rem;
+.nav-menu-con li {
+  /* list-style: none;border: solid red; */
+  display: block;
+  background-color: rgb(255, 176, 221);
+  border-radius: 0.5rem;
   padding: 8px 1rem;
-  background-color: rgb(227, 184, 231);
-  border-radius: 0.8rem;
-  width: 100%;
+  margin: 1.2rem 0;
 }
 
-.nav-menu li a {
+.nav-menu-con li a {
   text-decoration: none;
-  color: rgb(72, 75, 179);
+  width: 100%;
+  font-size: 3rem;
   font-family: "Comic Neue", cursive;
   font-weight: bold;
-  font-size: 1.3rem;
-}
-
-.bodyside {
-  gap: 1rem;
-}
-
-.bodyside main {
-  /* border: solid rgb(0, 72, 255); */
-  width: 75%;
 }
 
 main h3 {
