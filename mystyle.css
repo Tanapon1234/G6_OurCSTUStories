@@ -23,15 +23,16 @@ header {
   top: 20px;
   right: 30%;
   left: 30%;
+  margin: 1rem 0;
 }
 
 .btn-head a {
   text-decoration: none;
   margin: 0 0.5rem;
-  color: #fff;
-  background-color: #333;
-  padding: 5px 10px;
-  border-radius: 0.5rem;
+  color: #ffffff;
+  background-color: #e2d366;
+  padding: 5px 1.6rem;
+  border-radius: 1rem;
   font-size: 1rem;
   font-weight: bold;
 }
@@ -82,9 +83,11 @@ header {
 .nav-menu {
   width: 100%;
   padding-left: 0;
-  border: 6px solid rgb(255, 176, 221);
-  padding: 0 1.2rem;
+  border: 3px solid rgb(255, 176, 221);
+  padding: 0 0.6rem;
   border-radius: 1rem;
+  position: sticky;
+  top: 10px;
 }
 
 .nav-menu-con li {
@@ -93,13 +96,13 @@ header {
   background-color: rgb(255, 176, 221);
   border-radius: 0.5rem;
   padding: 8px 1rem;
-  margin: 1.2rem 0;
+  margin: 0.6rem 0;
 }
 
 .nav-menu-con li a {
   text-decoration: none;
   width: 100%;
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-family: "Comic Neue", cursive;
   font-weight: bold;
 }
