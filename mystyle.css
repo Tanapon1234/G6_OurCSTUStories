@@ -6,16 +6,20 @@
   box-sizing: border-box;
 }
 
+.body {
+  margin: 0 2rem;
+}
+
 header {
-  padding: 20px 0;
   /* border: solid red; */
   text-align: center;
   background: url("image/SC01.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 0.5rem;
   border-radius: 0.5rem;
+  margin: 1rem 5.6rem;
+  padding: 20px 0;
 }
 
 .btn-head {
@@ -50,13 +54,14 @@ header {
 }
 
 .logo h1 {
-  font-size: 5rem;
-  color: #fff;
+  font-size: 6rem;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 .bodyside {
   display: flex;
-  margin: 0 0.5rem;
+  margin: 0 5.6rem;
   gap: 1rem;
 }
 
@@ -85,7 +90,7 @@ header {
   padding-left: 0;
   border: 3px solid rgb(255, 176, 221);
   padding: 0 0.6rem;
-  border-radius: 1rem;
+  border-radius: 1.2rem;
   position: sticky;
   top: 10px;
 }
@@ -94,7 +99,7 @@ header {
   /* list-style: none;border: solid red; */
   display: block;
   background-color: rgb(255, 176, 221);
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   padding: 8px 1rem;
   margin: 0.6rem 0;
 }
@@ -105,6 +110,13 @@ header {
   font-size: 1.5rem;
   font-family: "Comic Neue", cursive;
   font-weight: bold;
+}
+
+.info-thamasat p {
+  font-size: 1rem;
+  font-family: "Comic Neue", cursive;
+  font-weight: normal;
+  color: #333;
 }
 
 main h3 {
