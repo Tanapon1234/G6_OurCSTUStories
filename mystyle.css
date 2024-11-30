@@ -89,19 +89,25 @@ header {
   width: 100%;
   padding-left: 0;
   border: 3px solid rgb(255, 176, 221);
-  padding: 0 0.6rem;
+  padding: 0 0.4rem;
   border-radius: 1.2rem;
   position: sticky;
   top: 10px;
 }
 
 .nav-menu-con li {
+  list-style: none;
+}
+
+.nav-menu-con li button {
   /* list-style: none;border: solid red; */
   display: block;
   background-color: rgb(255, 176, 221);
+  border: none;
   border-radius: 1rem;
   padding: 8px 1rem;
-  margin: 0.6rem 0;
+  margin: 0.4rem 0;
+  width: 100%;
 }
 
 .nav-menu-con li a {
@@ -110,6 +116,13 @@ header {
   font-size: 1.5rem;
   font-family: "Comic Neue", cursive;
   font-weight: bold;
+  color: rgb(60, 95, 199);
+}
+
+.info {
+  text-align: center;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid rgb(161, 183, 249);
 }
 
 .info-thamasat p {
@@ -117,6 +130,20 @@ header {
   font-family: "Comic Neue", cursive;
   font-weight: normal;
   color: #333;
+}
+
+.info button {
+  background-color: rgb(251, 194, 227);
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.info button a {
+  padding: 0 0.8rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: normal;
 }
 
 main h3 {
