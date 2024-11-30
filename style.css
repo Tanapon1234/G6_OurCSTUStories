@@ -2,21 +2,47 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 50px;
+    margin: 0%;
 }
-  
+
+header {
+    background-color: rgb(247, 233, 215);
+    border-radius: 10px;
+    margin: 30px;
+}
 h1 {
     font-family: "Syne", sans-serif;
-    color: #9b8268;
+    color: #78522c;
     font-size: 5rem;
-    margin: 100px;
+    margin: 1px;
+    padding: 15px;
+}
+
+nav ul {
+    float: left;
+    width: 10%;
+    background-color: rgb(247, 233, 215);
+    text-align: left;
+    height: 20vh;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+}
+
+li {
+    padding: 15px;
+}
+
+article {
+    float: right;
+    width: 78%;
 }
   
 .highlight {
     background-color: #c8b89d5e;
     padding: 20px;
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin : 30px;
 }
   
 .highlight h3 {
@@ -37,4 +63,13 @@ h1 {
     height: 385px;
     object-fit: cover;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    header, nav ul, li, article {
+      width: 100%;
+      text-align: center;
+      overflow: auto;
+    }
 }
