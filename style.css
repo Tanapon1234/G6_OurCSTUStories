@@ -27,6 +27,33 @@ nav ul {
     border-radius: 10px;
     padding: 20px;
     margin: 30px;
+    list-style: none;
+}
+
+nav ul li {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Syne", sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #78522c;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    width: 80px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #a06c42;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
 }
 
 li {
