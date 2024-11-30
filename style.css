@@ -18,13 +18,14 @@ h1 {
 
 nav ul {
     float: left;
-    width: 10%;
+    width: 15%;
     background-color: rgb(247, 233, 215);
     text-align: left;
-    height: 20vh;
+    height: 30vh;
     border-radius: 10px;
     padding: 20px;
     margin: 30px;
+    margin-left: 10px;
     list-style: none;
 }
 
@@ -60,7 +61,7 @@ li {
 
 article {
     float: right;
-    width: 78%;
+    width: 75%;
 }
   
 .highlight {
