@@ -22,9 +22,8 @@ header {
 .btn-head {
   position: fixed;
   top: 20px;
-  right: 30%;
-  left: 30%;
   margin: 1rem 0;
+  width: 80%;
 }
 
 .btn-head a {
@@ -264,6 +263,24 @@ footer {
   background-color: #333;
   color: #fff;
   font-size: 0.7rem;
+}
+
+@media screen and (max-width: 760px) {
+  .logo h1 {
+    font-size: 3rem;
+  }
+
+  .logo .our {
+    font-size: 3rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+  }
+
+  
 }
 
 /* gust-boook */
