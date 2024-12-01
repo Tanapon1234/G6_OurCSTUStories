@@ -297,6 +297,51 @@ footer {
   }
 }
 
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .header .btn-head a {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+
+  .logo {
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .bodyside {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .box {
+    padding: 0.95rem;
+  }
+
+  footer {
+    font-size: 0.875rem;
+  }
+}
+
 /* gust-boook */
 .rating-container {
   margin-bottom: 3rem;
