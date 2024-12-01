@@ -1,6 +1,6 @@
 <h1>Member and Role</h1>
 <ol>
-<li>นายธนพล เตชะอนันตกิจ 6709450016 ทำหน้าที่ควบคุณดูแลทุกหน้าเว็บให้สอดคล้องและทำงานได้ตรงกันและช่วยพัฒนาในทุกๆ หน้าเว็บ ทำfuction gust-book and Deploy web </li>
+<li>นายธนพล เตชะอนันตกิจ 6709450016 ทำหน้าที่แบ่งbranch และ แบ่งการทำงานให้เป็นสัดส่วน ให้คำปรึกษากับเพื่อนๆ ทำfuction gust-book and Deploy web </li>
 <li>นางสาวณัชชา วัฒนไวฑูรย์ชัย 6709530015  Develop Our Future Hilights page </li>
 <li>นางสาวนฐศร พันอินากูล 6709616566 Develop Homepage</li>
 <li>นางสาวปานชีวา อุดอ้าย 6709616624 Develop Our Future Hilights page</li>
