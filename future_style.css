@@ -1,103 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@300&family=Playfair+Display:ital@0;1&family=Syne:wght@400..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@300&family=Playfair+Display:ital@0;1&family=Syne:wght@400..800&display=swap");
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0%;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0%;
 }
 
 header {
-    margin: 30px;
+  margin: 30px;
 }
 h1 {
-    font-family: "Syne", sans-serif;
-    color: #78522c;
-    font-size: 5rem;
-    margin: 1px;
-    padding: 15px;
+  font-family: "Syne", sans-serif;
+  color: rgb(255, 176, 221);
+  font-size: 5rem;
+  margin: 1px;
+  padding: 15px;
 }
 
 nav ul {
-    float: left;
-    width: 15%;
-    background-color: rgb(247, 233, 215);
-    text-align: left;
-    height: 30vh;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 30px;
-    margin-left: 10px;
-    list-style: none;
+  float: left;
+  width: 15%;
+  background-color: rgb(247, 233, 215);
+  text-align: left;
+  height: 30vh;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px;
+  margin-left: 10px;
+  list-style: none;
 }
 
 nav ul li {
-    flex: 1;
-    text-align: center;
+  flex: 1;
+  text-align: center;
 }
 
 nav ul li a {
-    display: inline-block;
-    text-decoration: none;
-    font-family: "Syne", sans-serif;
-    font-size: 1rem;
-    color: #ffffff;
-    background-color: #78522c;
-    padding: 10px 20px;
-    border-radius: 25px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-in-out;
-    width: 80px;
-    text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Syne", sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: rgb(255, 176, 221);
+  padding: 10px 20px;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  width: 80px;
+  text-align: center;
 }
 
 nav ul li a:hover {
-    background-color: #a06c42;
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
-    transform: translateY(-2px);
+  background-color: #a06c42;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
 }
 
 li {
-    padding: 15px;
+  padding: 15px;
 }
 
 article {
-    float: right;
-    width: 75%;
+  float: right;
+  width: 75%;
 }
-  
+
 .highlight {
-    background-color: #c8b89d5e;
-    padding: 20px;
-    border-radius: 10px;
-    margin : 30px;
-    margin-right: 0px;
+  background-color: #c8b89d5e;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px;
+  margin-right: 0px;
 }
-  
+
 .highlight h3 {
-    font-family: "Playfair Display", serif;
-    font-size: 1.5rem;
-    color: #78522c;
-    margin-bottom: 10px;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  color: rgb(255, 176, 221);
+  margin-bottom: 10px;
 }
-  
+
 .highlight p {
-    font-family: "Afacad Flux", sans-serif;
-    font-size: 1.3rem;
-    line-height: 1.5;
+  font-family: "Afacad Flux", sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.5;
 }
-  
+
 .highlight img {
-    width: 320px;
-    height: 385px;
-    object-fit: cover;
-    border-radius: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  width: 320px;
+  height: 385px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 800px) {
-    header, nav ul, li, article {
-      width: 100%;
-      text-align: center;
-      overflow: auto;
-    }
+  header,
+  nav ul,
+  li,
+  article {
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+  }
 }
