@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Darumadrop+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&family=Darumadrop+One&display=swap");
 
 * {
   padding: 0;
@@ -230,7 +230,10 @@ p {
   /* font-size: 1rem; */
   color: black;
 }
-
+#commentsSection {
+  margin-top: 3rem;
+  display: none;
+}
 .box:hover {
   background-color: #3c4744;
   transform: scales(1.05);
@@ -280,7 +283,7 @@ footer {
     gap: 1.5rem;
   }
 
-  .nav-menu-con li a  {
+  .nav-menu-con li a {
     font-size: 0.9rem;
     font-weight: bold;
   }
@@ -371,7 +374,7 @@ footer {
   align-items: center;
   flex-direction: row-reverse;
   padding: 2em 2em 2em 5em;
-  gap: 10px;
+  gap: 5px;
   border-top-right-radius: 75px;
   border-bottom-right-radius: 75px;
   border: none;
